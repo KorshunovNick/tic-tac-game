@@ -1,0 +1,50 @@
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(202, 243, 253, 0.521);
+  min-width: 50px;
+  min-height: 50px;
+  padding: 10px;
+
+  &:hover {
+    background-color: rgb(127, 222, 246);
+    svg {
+      path {
+        fill: rgb(255, 255, 255);
+      }
+    }
+  }
+}
+
+.id1,
+.id2,
+.id4,
+.id5 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.id7,
+.id8 {
+  border-right: 1px solid black;
+}
+
+.id3,
+.id6 {
+  border-bottom: 1px solid black;
+}
+
+.id1 {
+  border-top-left-radius: 12px;
+}
+.id3 {
+  border-top-right-radius: 12px;
+}
+.id7 {
+  border-bottom-left-radius: 12px;
+}
+
+.id9 {
+  border-bottom-right-radius: 12px;
+}

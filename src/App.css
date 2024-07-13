@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: #61dafb;
+}
+.area {
+  border: 1px dashed white;
+  padding: 10px;
+  border-radius: 12px;
+  position: relative;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.wl {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(243, 254, 255);
+  &.r {
+    display: none;
+  }
+  &.r123 {
+    top: 44px;
+    left: 0;
+  }
+  &.r159 {
+    top: 110px;
+    left: 0;
+    rotate: 45deg;
+  }
+  &.r147 {
+    top: 110px;
+    left: -70px;
+    rotate: 90deg;
+  }
+  &.r258 {
+    top: 110px;
+    left: 0;
+    rotate: 90deg;
+  }
+  &.r357 {
+    top: 110px;
+    left: 0px;
+    rotate: 135deg;
+  }
+  &.r369 {
+    top: 110px;
+    left: 70px;
+    rotate: 90deg;
+  }
+  &.r456 {
+    top: 110px;
+    left: 0;
+  }
+  &.r789 {
+    bottom: 44px;
+  }
+}
